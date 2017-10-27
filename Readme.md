@@ -8,3 +8,4 @@ This is a collection of interesting algorithm for solving different algorithm pr
 4) Multi-Thread - Oct 25
 5) SegmentTree - Oct 25 | Search the maximum value in a region
 6) Spring Tutorial - Hello World Oct 26 | Spring
+7) Puzzle with Key - Oct 27 | Find minimum path in a puzzle, with gate and key
