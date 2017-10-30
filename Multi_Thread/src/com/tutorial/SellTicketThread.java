@@ -1,11 +1,10 @@
 package com.tutorial;
 
 public class SellTicketThread {
-    //TODO : correct this method
     public static void main(String [] args){
-        sellThread s1 = new sellThread();
-        sellThread s2 = new sellThread();
-        sellThread s3 = new sellThread();
+        sellThread s1 = new sellThread("Window 1");
+        sellThread s2 = new sellThread("Window 2");
+        sellThread s3 = new sellThread("Window 3");
 
         s1.start();
         s2.start();
@@ -13,15 +12,18 @@ public class SellTicketThread {
     }
 }
 class sellThread extends Thread{
-    private static volatile int total = 200;
+    private static int total = 200;
+    public sellThread(String name){
+        super(name);
+    }
     @Override
     public void run(){
         while (true) {
-            synchronized (this) {
+            synchronized (sellThread.class) {
                 if(total > 0){
                     System.out.println(Thread.currentThread().getName() + " now output No. " + total-- + " ticket");
                     try {
-                        Thread.sleep(300);
+                        Thread.sleep((int)(Math.random() * 300));
                     }
                     catch (InterruptedException e){
                         e.printStackTrace();
