@@ -12,3 +12,4 @@ This is a collection of interesting algorithm for solving different algorithm pr
 8) Big Number Multiply - Oct 28 | Using String to represent big number
 9) Candy - Oct 28
 10) Max Product of 3 number - Oct 28
+11) K-th Smallest Pair (LC719) - Oct 29 | Bineary Search
