@@ -1,5 +1,9 @@
 package com.tutorial;
 
+/**
+ *   Using extends thread method to achieve multi-thread, sychronized
+ *   @author windmsvy
+ */
 public class SellTicketThread {
     public static void main(String [] args){
         sellThread s1 = new sellThread("Window 1");

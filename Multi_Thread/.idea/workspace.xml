@@ -42,24 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SellTicket.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SellTicket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SellTicketThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SellTicketThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicketThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/src/com/tutorial/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/tutorial/Demo2.java" />
         <option value="$PROJECT_DIR$/src/com/tutorial/Demo3.java" />
-        <option value="$PROJECT_DIR$/src/com/tutorial/SellTicket.java" />
         <option value="$PROJECT_DIR$/src/com/tutorial/SellTicketThread.java" />
+        <option value="$PROJECT_DIR$/src/com/tutorial/SellTicket.java" />
       </list>
     </option>
   </component>
@@ -138,13 +138,6 @@
               <item name="Multi_Thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multi_Thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multi_Thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="SellTicketThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -313,12 +306,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509196947521</updated>
       <workItem from="1509196952217" duration="1937000" />
-      <workItem from="1509320550027" duration="3140000" />
+      <workItem from="1509320550027" duration="3490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5077000" />
+    <option name="totallyTimeSpent" value="5427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -413,22 +406,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicket.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicketThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicketThread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tutorial/SellTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

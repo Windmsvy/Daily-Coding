@@ -1,10 +1,13 @@
 package com.tutorial;
 
+/**
+ *  @author windmsvy
+ *  Using implements runnable method to achieve selling tickets
+ */
+
 public class SellTicket {
     public static void main(String [] args) {
         window w1 = new window();
-//        window w2 = new window();
-//        window w3 = new window();
 
         Thread t1 = new Thread(w1);
         Thread t2 = new Thread(w1);
