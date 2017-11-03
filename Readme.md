@@ -13,3 +13,5 @@ This is a collection of interesting algorithm for solving different algorithm pr
 9) Candy - Oct 28
 10) Max Product of 3 number - Oct 28
 11) K-th Smallest Pair (LC719) - Oct 29 | Bineary Search
+12) Some Multi-thread and servlet sample
+13) HeapSort - Nov 3th
