@@ -1,9 +1,9 @@
 import java.util.*;
 public class HeapSort{
 	public static void main(String[] args) {
-		int size = 200;
-		int [] test = new int [size];
 		for(int time = 1; time <= 20; time ++){
+			int size = (int)(Math.random() * 300) + 5;
+			int [] test = new int [size];
 			for(int i = 0; i < size; i++){
 				test[i] = (int)(Math.random() * 500) - 200;
 			}
@@ -12,6 +12,7 @@ public class HeapSort{
 			check(test);
 		}
 	}
+	// check whether it is well sorted
 	private static void check(int [] nums){
 		boolean label = true;
 		for(int i = 1; i < nums.length; i++){
@@ -22,10 +23,13 @@ public class HeapSort{
 		}
 		System.out.println(label);
 	}
+	// main function for heapsort
 	private static void heapsort(int [] nums){
 		int size = nums.length;
+		// First of all, former the maxheap
 		adjust(nums,size);
 		while(size > 1){
+			// move the max value to the end, then alter the heap
 			swap(nums,0, --size);
 			adjust(nums,size,0);
 		}
